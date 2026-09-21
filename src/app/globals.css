@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Texcroft's public brand tokens — white/black/gold, never a second accent
+   hue. This app is standalone (split from the internal Texcroft OS
+   dashboard for separate hosting); see docs/HANDOFF.md for the split and
+   docs/DATA_MODEL.md in the dashboard repo for the shared Enquiry model
+   this site's forms are meant to write into once a real backend connects
+   the two. */
+:root {
+  --tx-bg: #ffffff;
+  --tx-ink: #1a1a1a;
+  --tx-muted: #555555;
+  --tx-gold: #b8860b;
+  --tx-gold-ink: #ffffff;
+  --tx-line: #f2f2f2;
+  --tx-whatsapp: #25d366;
+}
+
+.tx-site {
+  background: var(--tx-bg);
+  color: var(--tx-ink);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom cursor (src/components/site/custom-cursor.tsx) replaces the
+   pointer on precise (mouse/trackpad) input only — touch/coarse pointers
+   never lose their native cursor/tap behaviour. */
+@media (pointer: fine) {
+  .tx-site,
+  .tx-site a,
+  .tx-site button {
+    cursor: none;
+  }
+}
+
+.tx-heading {
+  font-family: var(--font-barlow-condensed), ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.98;
+}
+
+@keyframes tx-shimmer-move {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.tx-shimmer {
+  animation: tx-shimmer-move 5s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tx-shimmer {
+    animation: none;
+  }
+}
