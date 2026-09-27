@@ -1,6 +1,7 @@
 {
   "name": "texcroft-website",
   "version": "0.1.0",
+  "description": "Garment sourcing and apparel manufacturing brand website, interactive design studio, and client quote intake system.",
   "private": true,
   "scripts": {
     "dev": "next dev",
