@@ -4,7 +4,7 @@ import { QuoteForm } from "@/components/site/quote-form";
 import { GoldButton, OutlineButton } from "@/components/site/gold-button";
 
 export const metadata: Metadata = {
-  title: "Contact Texcroft — Get a Garment Manufacturing Quote",
+  title: "Contact Us — Get a Garment Manufacturing Quote",
   description: "Coimbatore HQ, Tiruppur factory, WhatsApp, phone and email. We respond within 2 hours during business hours.",
   alternates: { canonical: "/contact" },
 };
@@ -50,8 +50,8 @@ export default function ContactPage() {
               <p className="tx-heading text-xs font-bold" style={{ color: "var(--tx-gold)" }}>
                 EMAIL
               </p>
-              <a href="mailto:info@texcroft.com" className="underline" style={{ color: "var(--tx-ink)" }}>
-                info@texcroft.com
+              <a href="mailto:info@apparelops.demo" className="underline" style={{ color: "var(--tx-ink)" }}>
+                info@apparelops.demo
               </a>
             </div>
           </Reveal>

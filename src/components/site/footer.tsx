@@ -34,7 +34,7 @@ export function SiteFooter() {
               <MagneticOutlineButton href="https://wa.me/919003377035" className="!border-white/30 !text-white">
                 WhatsApp
               </MagneticOutlineButton>
-              <MagneticOutlineButton href="mailto:info@texcroft.com" className="!border-white/30 !text-white">
+              <MagneticOutlineButton href="mailto:info@apparelops.demo" className="!border-white/30 !text-white">
                 Email
               </MagneticOutlineButton>
             </div>
@@ -56,7 +56,7 @@ export function SiteFooter() {
             ))}
           </nav>
         </div>
-        <p className="mx-auto mt-10 max-w-6xl text-xs text-white/40">© {new Date().getFullYear()} Texcroft. Coimbatore · Tiruppur, Tamil Nadu, India.</p>
+        <p className="mx-auto mt-10 max-w-6xl text-xs text-white/40">© {new Date().getFullYear()} Apparel Studio. Coimbatore · Tiruppur, Tamil Nadu, India.</p>
       </footer>
     </>
   );

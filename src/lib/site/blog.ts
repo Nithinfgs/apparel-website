@@ -51,7 +51,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-04-23",
     body: [
       "AQL (Acceptable Quality Level) inspection samples a statistically representative subset of a shipment rather than checking every piece.",
-      "Texcroft applies AQL 2.5 for major defects and AQL 4.0 for minor defects as standard, with third-party or buyer-nominated inspectors accepted on request.",
+      "We apply AQL 2.5 for major defects and AQL 4.0 for minor defects as standard, with third-party or buyer-nominated inspectors accepted on request.",
     ],
   },
   {
@@ -62,7 +62,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-04-23",
     body: [
       "GSM (grams per square metre) measures fabric weight and density. A 160 GSM tee drapes lighter than a 220 GSM tee, which reads heavier and more structured.",
-      "Every fabric lot Texcroft receives is weighed and verified against the approved GSM before cutting begins — a lot outside tolerance is rejected, not cut around.",
+      "Every fabric lot received is weighed and verified against the approved GSM before cutting begins — a lot outside tolerance is rejected, not cut around.",
     ],
   },
   {
@@ -73,7 +73,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-04-23",
     body: [
       "A tech pack specifies measurements by size, fabric and trim details, construction notes, and artwork placement in one document a factory can produce directly from.",
-      "You don't always need a finished one to start — Texcroft's Requirements & Costing step helps build one from a rough brief or reference garment.",
+      "You don't always need a finished one to start — our Requirements & Costing step helps build one from a rough brief or reference garment.",
     ],
   },
   {

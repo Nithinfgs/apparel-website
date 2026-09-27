@@ -34,7 +34,7 @@ export function DesignLabPreview() {
           </p>
           <h2 className="tx-heading mt-3 text-4xl font-extrabold text-white md:text-5xl">DESIGN YOUR GARMENT</h2>
           <p className="mt-3 max-w-sm text-sm text-white/60">
-            Pick a colour, upload or generate artwork, and send your configuration straight into Texcroft&apos;s production system.
+            Pick a colour, upload or generate artwork, and send your configuration straight into our production system.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">

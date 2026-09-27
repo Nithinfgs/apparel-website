@@ -30,7 +30,7 @@ export function WhatWeDo() {
       <div className="relative mx-auto max-w-7xl">
         <Reveal>
           <p className="text-xs font-semibold tracking-[0.2em]" style={{ color: "var(--tx-gold)" }}>
-            WHAT TEXCROFT DOES
+            OUR CAPABILITIES
           </p>
           <h2 className="tx-heading mt-3 max-w-4xl text-5xl font-extrabold text-white md:text-7xl">
             ONE PARTNER.

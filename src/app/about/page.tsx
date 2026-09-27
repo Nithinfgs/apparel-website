@@ -3,8 +3,8 @@ import { Reveal } from "@/components/site/reveal";
 import { QuoteForm } from "@/components/site/quote-form";
 
 export const metadata: Metadata = {
-  title: "About Texcroft — Apparel Manufacturing Partner in Tiruppur",
-  description: "Texcroft is a full-service apparel production company based in Tiruppur, India's knit manufacturing capital.",
+  title: "About Us — Full-Service Apparel Manufacturing Partner",
+  description: "A full-service apparel production partner based in Tiruppur, India's knit manufacturing capital.",
   alternates: { canonical: "/about" },
 };
 
@@ -26,12 +26,12 @@ export default function AboutPage() {
               PARTNER
             </h1>
             <p className="mt-4 max-w-2xl text-sm" style={{ color: "var(--tx-muted)" }}>
-              Texcroft is a full-service apparel production company based in Tiruppur, India&apos;s knit manufacturing capital. We produce
+              We are a full-service apparel production company based in Tiruppur, India&apos;s knit manufacturing capital. We produce
               finished garments for clothing brands, private labels, importers, wholesalers, and corporate buyers across Europe, the US, the
               Middle East, the UK, Australia and beyond.
             </p>
             <p className="mt-4 max-w-2xl text-sm" style={{ color: "var(--tx-muted)" }}>
-              We operate our own partnered production units in Tiruppur alongside a network of vetted partner factories — giving us the
+              We operate dedicated production units in Tiruppur alongside a network of vetted partner factories — giving us the
               flexibility to handle orders from 50 pieces all the way to large-scale bulk production without compromising on oversight or
               quality.
             </p>

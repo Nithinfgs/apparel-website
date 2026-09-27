@@ -104,7 +104,7 @@ export const PUBLIC_PRODUCT_CATEGORIES: PublicProductCategory[] = [
     fabric: "Cotton, polyester blends, tri-blends, CVC",
     finishes: "Screen printing, DTF/DTG, sublimation",
     moq: "50 pcs",
-    description: "The core of Texcroft's production — GSM-verified crew knits across every major print method.",
+    description: "The core of our production — GSM-verified crew knits across every major print method.",
     image: "/images/products/crew-neck.jpg",
   },
 ];

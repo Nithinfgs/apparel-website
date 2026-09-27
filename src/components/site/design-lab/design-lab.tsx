@@ -9,7 +9,7 @@ import { DESIGN_LAB_CATEGORIES, DESIGN_LAB_GARMENTS, DESIGN_LAB_SWATCHES, SIZES,
 import { DESIGN_LAB_MOQ } from "@/lib/validation/public-enquiry";
 
 const STEP_LABELS = ["Product", "Colour", "Design", "Specs", "Contact"] as const;
-const DRAFT_KEY = "texcroft-design-lab-draft-v1";
+const DRAFT_KEY = "apparel-design-lab-draft-v1";
 
 interface DraftState {
   step: number;
@@ -174,7 +174,7 @@ export function DesignLab({ prefillProduct, prefillColourHex, prefillColourName 
       <div className="mx-auto max-w-4xl">
         <h1 className="tx-heading text-4xl font-extrabold md:text-5xl">AI DESIGN LAB</h1>
         <p className="mt-2 max-w-2xl text-sm" style={{ color: "var(--tx-muted)" }}>
-          Design your t-shirt, hoodie, or jogger — then send it directly into Texcroft&apos;s production system for costing.
+          Design your t-shirt, hoodie, or jogger — then send it directly into our production system for costing.
         </p>
 
         {/* Step indicator */}
@@ -385,7 +385,7 @@ export function DesignLab({ prefillProduct, prefillColourHex, prefillColourName 
                         onClick={() =>
                           setAiNote(
                             aiPrompt.trim()
-                              ? "AI image generation isn't connected in this environment yet — this is where your prompt would be sent to Texcroft's design-generation service. Upload your own artwork above, or leave a note in Step 4 and our team will help with artwork."
+                              ? "AI image generation isn't connected in this environment yet — this is where your prompt would be sent to our design-generation service. Upload your own artwork above, or leave a note in Step 4 and our team will help with artwork."
                               : "Describe what you'd like generated first.",
                           )
                         }

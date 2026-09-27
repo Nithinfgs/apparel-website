@@ -3,7 +3,7 @@ import { DesignLab } from "@/components/site/design-lab/design-lab";
 
 export const metadata: Metadata = {
   title: "AI Design Lab — Custom Garment Design Tool",
-  description: "Design your t-shirt, hoodie, or jogger online. Visualize fabric, colour and silhouette, then send it to Texcroft for production from 50 pieces.",
+  description: "Design your t-shirt, hoodie, or jogger online. Visualize fabric, colour and silhouette, then submit for production from 50 pieces.",
   alternates: { canonical: "/design" },
 };
 

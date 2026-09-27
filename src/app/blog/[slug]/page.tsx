@@ -31,8 +31,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "@type": "Article",
     headline: post.title,
     datePublished: post.date,
-    author: { "@type": "Organization", name: "Texcroft" },
-    publisher: { "@type": "Organization", name: "Texcroft" },
+    author: { "@type": "Organization", name: "Apparel Studio" },
+    publisher: { "@type": "Organization", name: "Apparel Studio" },
   };
 
   return (
@@ -45,7 +45,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </p>
           <h1 className="tx-heading mt-2 text-4xl font-extrabold md:text-5xl">{post.title.toUpperCase()}</h1>
           <time dateTime={post.date} className="mt-3 block text-xs" style={{ color: "var(--tx-muted)" }}>
-            {new Date(post.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })} · Team Texcroft
+            {new Date(post.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })} · Production Editorial Team
           </time>
         </Reveal>
 

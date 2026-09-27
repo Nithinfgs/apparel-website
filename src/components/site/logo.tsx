@@ -16,10 +16,10 @@ function MountainMark({ dark }: { dark: boolean }) {
 
 export function SiteLogo({ dark = false }: { dark?: boolean }) {
   return (
-    <Link href="/" className="flex items-center gap-2 text-lg font-bold" aria-label="Texcroft home">
+    <Link href="/" className="flex items-center gap-2 text-lg font-bold" aria-label="Apparel Studio home">
       <MountainMark dark={dark} />
-      <span className="font-sans" style={{ color: dark ? "#ffffff" : "var(--tx-ink)" }}>
-        Texcroft
+      <span className="font-sans font-semibold tracking-wide" style={{ color: dark ? "#ffffff" : "var(--tx-ink)" }}>
+        Apparel Studio
       </span>
     </Link>
   );

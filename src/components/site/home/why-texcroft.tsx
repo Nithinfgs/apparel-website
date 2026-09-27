@@ -3,7 +3,7 @@ import { Reveal } from "@/components/site/reveal";
 const PILLARS = [
   { title: "LOW MOQ", body: "Start from 50 pcs." },
   { title: "ONE POINT OF CONTACT", body: "From development through dispatch." },
-  { title: "PRODUCTION VISIBILITY", body: "Track progress through the Texcroft system." },
+  { title: "PRODUCTION VISIBILITY", body: "Track live milestone progress through our digital portal." },
   { title: "QUALITY CONTROL", body: "Inline inspection and final AQL-based checks." },
 ];
 
@@ -13,7 +13,7 @@ export function WhyTexcroft() {
       <div className="mx-auto max-w-7xl">
         <Reveal>
           <p className="text-xs font-semibold tracking-[0.15em]" style={{ color: "var(--tx-gold)" }}>
-            WHY BUYERS CHOOSE TEXCROFT
+            WHY BUYERS CHOOSE US
           </p>
         </Reveal>
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

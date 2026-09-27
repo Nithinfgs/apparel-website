@@ -18,21 +18,21 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Texcroft — Apparel Manufacturing & Garment Sourcing, Tiruppur",
-    template: "%s | Texcroft",
+    default: "Apparel Studio — Garment Manufacturing & Apparel Sourcing",
+    template: "%s | Apparel Studio",
   },
   description:
-    "Texcroft is a full-service apparel production company in Tiruppur, India. Low MOQ from 50 pieces — fabric sourcing, sampling, bulk manufacturing, quality control and global dispatch under one accountable team.",
-  metadataBase: new URL("https://texcroft.com"),
+    "Full-service apparel production and garment manufacturing. Low MOQ from 50 pieces — fabric sourcing, sampling, bulk manufacturing, quality control and global dispatch under one accountable team.",
+  metadataBase: new URL("https://apparel-studio.demo"),
   openGraph: {
     type: "website",
-    siteName: "Texcroft",
-    title: "Texcroft — Apparel Manufacturing & Garment Sourcing, Tiruppur",
+    siteName: "Apparel Studio",
+    title: "Apparel Studio — Garment Manufacturing & Apparel Sourcing",
     description: "Low MOQ garment manufacturing from 50 pieces. Sourcing, sampling, production, QC and global dispatch — one accountable team.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Texcroft — Apparel Manufacturing & Garment Sourcing, Tiruppur",
+    title: "Apparel Studio — Garment Manufacturing & Apparel Sourcing",
   },
 };
 

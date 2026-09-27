@@ -28,7 +28,7 @@ export function BuyerVisibility() {
             VISIBLE FROM SAMPLE TO SHIPMENT.
           </h2>
           <p className="mt-3 max-w-sm text-sm" style={{ color: "var(--tx-muted)" }}>
-            Once production begins, buyers can follow progress, approvals, documents and dispatch updates through their Texcroft portal.
+            Once production begins, buyers can follow progress, approvals, documents and dispatch updates through their dedicated portal.
           </p>
           <div className="mt-6">
             <GoldButton href="/login">Track Your Order</GoldButton>

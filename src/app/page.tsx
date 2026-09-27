@@ -11,7 +11,7 @@ import { QuoteForm } from "@/components/site/quote-form";
 import { Reveal } from "@/components/site/reveal";
 
 export const metadata: Metadata = {
-  title: "Texcroft — From Your Vision to Finished Garment",
+  title: "Apparel Studio — From Your Vision to Finished Garment",
   alternates: { canonical: "/" },
 };
 

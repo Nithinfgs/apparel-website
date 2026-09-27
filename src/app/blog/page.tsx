@@ -4,7 +4,7 @@ import { Reveal } from "@/components/site/reveal";
 import { BLOG_POSTS } from "@/lib/site/blog";
 
 export const metadata: Metadata = {
-  title: "Manufacturing Knowledge — Texcroft Blog",
+  title: "Manufacturing Knowledge — Industry Insights & Guides",
   description: "Practical guides for brands, buyers, and businesses on garment production, quality standards, and sourcing fundamentals.",
   alternates: { canonical: "/blog" },
 };

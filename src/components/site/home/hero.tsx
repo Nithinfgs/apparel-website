@@ -137,7 +137,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 1.15 }}
             className="max-w-md text-base leading-relaxed text-white/60"
           >
-            From sampling and sourcing to bulk manufacturing, quality control and worldwide dispatch — Texcroft handles the complete garment
+            From sampling and sourcing to bulk manufacturing, quality control and worldwide dispatch — we manage the complete garment
             production journey.
           </motion.p>
 
